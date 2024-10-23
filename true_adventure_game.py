@@ -15,13 +15,54 @@ def scenario_1():
         print('Choose between 1a or 1b')
         user_input = input().strip()
         if user_input == '1a':
-            print('1')
+            print(scenario_2())
         elif user_input == '1b':
             print('5')
-        elif user_input == None:
-            print('a')
         else:
             print('Invalid answer')
+
+def scenario_2():
+    options = ['2a','2b']
+    print('Testing')
+    user_input = ''
+    while user_input not in options:
+        print('Choose between 2a or 2b')
+        user_input = input().strip()
+        if user_input == '2a':
+            scenario_3()
+        elif user_input == '2b':
+            print('5')
+        else:
+            print('Invalid answer')
+
+def scenario_3():
+    options = ['3a','3b']
+    print('True test')
+    user_input = ''
+    while user_input not in options:
+        print('Choose between 3a or 3b')
+        user_input = input().strip()
+        if user_input == '3a':
+            scenario_4()
+        elif user_input == '3b':
+            print('5')
+        else:
+            print('Invalid answer')
+
+def scenario_4():
+    options = ['4a','4b']
+    print('True test')
+    user_input = ''
+    while user_input not in options:
+        print('Choose between 4a or 4b')
+        user_input = input().strip()
+        if user_input == '4a':
+            print('end_c')
+        elif user_input == '4b':
+            print(end_d)
+        else:
+            print('Invalid answer')
+end_d = ('where')
 
 
 def main():

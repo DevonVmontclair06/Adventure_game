@@ -99,7 +99,7 @@ def scenario_4():
     print('The ladder is beyond rusted, with the metal peeling as you brush your hand on it.')
     print()
     print('4a:')
-    print('Assed the ladder')
+    print('Assend the ladder')
     print()
     print('4b:')
     print('Descend the ladder')
